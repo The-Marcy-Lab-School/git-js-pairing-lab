@@ -97,3 +97,68 @@ function betweenTwentyAndFourty(num){
 }
 //console.log(betweenTwentyAndFourty(66))
 
+//10
+function largest(num1, num2, num3){
+    return Math.max(num1, num2, num3);
+}
+
+//console.log(largest(7, 3, 4));
+
+//11 *
+function printTime(){
+    var currentTime = new Date();
+    var time = currentTime.getHours() + ":" + currentTime.getMinutes() + ":" + currentTime.getSeconds();
+    return time;
+}
+//console.log(printTime());
+
+//12
+function isLeapYear(year){
+    if(year % 4 == 0 && year % 400 == 0){
+        return true;
+    }else
+        return false;
+}
+//console.log(isLeapYear(1900));
+
+//13
+function getExtension(fileName) {
+    return fileName.split('.').pop();
+}
+//console.log(getExtension("hello.txt"));
+
+//14
+function absoluteNineteen(num1){
+    let absdiff = Math.abs(num1-19);
+    if(absdiff>19){
+        return absdiff * 3;
+    }else 
+        return absdiff;
+}
+
+//console.log(absoluteNineteen(1));
+
+//15
+function switchLetters(str){
+    if( str.length > 1){
+     let firstChar = str[0];
+     let lastChar = str[str.length-1];
+     let middle = str.substring(1, str.length-1);
+     console.log(lastChar + middle + firstChar );
+    }else
+        console.log(str);
+}
+
+//switchLetters("an");
+
+//16
+function changeString (str){
+    let newStr = '';
+    for(let i=0; i <str.length;i++  ){
+       let charcode = (str.charCodeAt(i))+1;
+       let newLetter = String.fromCharCode(charcode);
+       newStr = newStr + newLetter;
+    }
+    console.log(newStr);
+}
+changeString('abc');
