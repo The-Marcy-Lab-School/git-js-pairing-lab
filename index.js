@@ -3,7 +3,7 @@ function countToHundred(){
     console.log("Question 1")
   for (let i=5;i<=100; i++){console.log(i)}
 }
-countToHundred()
+
 
 
 function multiplesOf3(){
@@ -14,4 +14,11 @@ function multiplesOf3(){
     }
 }
 
-multiplesOf3()
+
+
+function multiplesOfthreeorfive(){
+   for (let i=1; i <= 100; i++)
+    if(i % 3 === 0 || i % 5 === 0){console.log(i)}
+    
+}
+multiplesOfthreeorfive() 
