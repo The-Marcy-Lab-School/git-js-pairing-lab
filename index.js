@@ -31,3 +31,7 @@ function untilNum(num){
     }
 }
 untilNum(6)
+
+function Multiply(num1,num2){console.log("Question 5") 
+console.log (num1 * num2)}
+Multiply(3,4)
