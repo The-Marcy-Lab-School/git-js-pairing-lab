@@ -61,3 +61,11 @@ let triangleArea = (a,b) =>{
 }
 console.log('Q8')
 console.log(triangleArea(5,7))
+
+function betweenTwentyandFourty(num){
+    console.log("Question 9")
+    if(num<100 && num>20){console.log("true")}
+else {console.log("false")
+}
+}
+betweenTwentyandFourty(101)
