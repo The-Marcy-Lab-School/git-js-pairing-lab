@@ -35,3 +35,15 @@ untilNum(6)
 function Multiply(num1,num2){console.log("Question 5") 
 console.log (num1 * num2)}
 Multiply(3,4)
+
+
+
+function add(num1,num2){
+    if (num1 !== num2){
+        return num1 + num2;
+    }else{
+        return (num1 + num2) * 3; 
+    }
+}
+console.log('Q6')
+ console.log(add(4,5))
