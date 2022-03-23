@@ -55,3 +55,9 @@ function isNegative(num){
 }
 }
 isNegative(0)
+
+let triangleArea = (a,b) =>{
+    return (a*b) / 2
+}
+console.log('Q8')
+console.log(triangleArea(5,7))
