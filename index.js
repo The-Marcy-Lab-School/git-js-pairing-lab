@@ -47,3 +47,11 @@ function add(num1,num2){
 }
 console.log('Q6')
  console.log(add(4,5))
+
+function isNegative(num){
+    console.log("Question7")
+    if (num>0){console.log("false")}
+    else{console.log("true")
+}
+}
+isNegative(0)
