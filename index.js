@@ -85,14 +85,59 @@ function largest(a,b,c){
 console.log('Q10')
 largest(9,9,9)
 
-function printTime(currentime) {
-    function currentime(hour,minute,second);
-        let hour= now.getHours();
-    let minute now.getMinutes();
-    let second  = now.getSeconds(); 
-   =
-    // example usage: realtime clock
+function printTime() {
+    let time = new Date();
+    return `${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`;
+}
+//console.log(printTime());
+//problem 12
+function isLeapYear(year){
+    if (year % 4 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
+//console.log(isLeapYear(1800))
+//problem 13
+function getExtension(file) {
+    return "." + file.split('.').pop();
+}
+//console.log(getExtension("Book.mp3"));
+//problem 14
+function absolute19(num){
+    let absoluteValue = Math.abs(num - 19)
+    if (num > 19){
+        return 3 * absoluteValue
+    }
+}
+//console.log(absolute19(22))
+//problem 15
+
+function switchLetters(string) {
+    let emptyString = ""
+
+    for(let i = 0; i < string.length; i++) {
+        if(i != 0 && i != string.length - 1) {
+            emptyString += string[i]
+            //console.log(i);
+        }
+    }return string[string.length - 1] + emptyString + string[0]
+
 }
 
-function printTime(currenttime)
+console.log(switchLetters("Emmanuel"));
 
+//problem 16
+
+function changeString(string) {
+    let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+    let newString = [];
+    
+    for(let i = 0; i < string.length; i++) {
+        let temp = alphabet.indexOf(string[i]) + 1;
+        newString.push(alphabet[temp]);
+    }
+    console.log(newString.join(''));
+}
+changeString("hello")
