@@ -84,3 +84,15 @@ function largest(a,b,c){
 
 console.log('Q10')
 largest(9,9,9)
+
+function printTime(currentime) {
+    function currentime(hour,minute,second);
+        let hour= now.getHours();
+    let minute now.getMinutes();
+    let second  = now.getSeconds(); 
+   =
+    // example usage: realtime clock
+}
+
+function printTime(currenttime)
+
