@@ -69,3 +69,18 @@ else {console.log("false")
 }
 }
 betweenTwentyandFourty(101)
+
+
+function largest(a,b,c){
+    if (a>b && a>c){
+        console.log(a)
+    }else if (b>a && b>c){
+        console.log(b)
+    }else{
+        console.log(c)
+    }
+    
+}
+
+console.log('Q10')
+largest(9,9,9)
