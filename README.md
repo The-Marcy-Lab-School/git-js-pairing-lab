@@ -32,23 +32,26 @@ Running into problems? Make sure you have done the following:
 You can check which remote repository you are connected to by running the following command from inside a Git directory:
 
 ```
-cat .git/config
+cat remote -v
 ```
 
-This will print out the `config` file inside the hidden `.git` folder that exists in _every_ Git project. You should see the `remote "origin"` listed like this:
+This will print out the remote repository location that we are using to `fetch`/`pull` changes from and `push` changes to. For example:
 
 ```
-[remote "origin"]
-	url = https://github.com/benspector-mls/git-js-pairing-lab.git
+origin	https://github.com/benspector-mls/git-js-pairing-lab.git (fetch)
+origin	https://github.com/benspector-mls/git-js-pairing-lab.git (push)
 ```
 
-Both partners should have the same `url` value.
+Both partners should have the same urls for both `fetch` and `push`.
 
-### 1) Did you add, commit, and push your code?
+### 1) Did you stage, commit, and push your code?
 
-After completing a function, remember to `git add`, `git commit`, and `git push` your code! The commands might like this:
+You can always use `git status` to see if you have done these things.
+
+After completing a function, remember to stage, commit, and push your code! The commands might look like this:
 
 ```
+git status
 git add index.js
 git commit -m "completed the fiveToOneHundred function"
 git push
