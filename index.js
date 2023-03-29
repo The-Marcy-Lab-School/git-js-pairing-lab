@@ -4,5 +4,11 @@ const fiveToOneHundred = () => {
         console.log(num);
     }
 }
-fiveToOneHundred();
+//fiveToOneHundred();
 
+const multiplesOfThree = () => {
+    for ( let i = 3; i <= 100; i+= 3)
+    console.log(i);
+}
+
+multiplesOfThree();
