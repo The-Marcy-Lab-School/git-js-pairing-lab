@@ -12,5 +12,6 @@ function multiplesOfThree(){
 }
 
 console.log ("TEST")
+console.log ("TES 8")
 
 multiplesOfThree()
