@@ -10,4 +10,7 @@ function multiplesOfThree(){
         console.log(i)
     }
 }
+
+console.log ("TEST")
+
 multiplesOfThree()
