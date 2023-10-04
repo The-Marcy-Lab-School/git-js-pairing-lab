@@ -7,3 +7,11 @@ for (i =5; i <= 100; i++) {
 (fiveToOneHundred());
 
 
+//Problem 2
+const multiplesOfThree = () =>{
+    for (let i = 0; i <= 100; i+=3)
+    {
+     console.log(i);
+    }
+}
+multiplesOfThree();
