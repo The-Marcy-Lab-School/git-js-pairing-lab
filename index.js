@@ -4,7 +4,6 @@ const fiveToOneHundred=()=>{
         console.log(i)
     }
 }
-console.log(multiplesOfThree())
 const multiplesOfThree=()=>{
     for(let i=3;i<100;i++){
         if(i%3===0){
@@ -22,3 +21,9 @@ const multiplesOfThreeOrFive=()=>{
     }
 }
 console.log(multiplesOfThreeOrFive())
+ //5
+ const multiply=(num1,num2)=>{
+    return num1*num2
+ }
+ console.log(multiply(5,5))
+ 
