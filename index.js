@@ -42,3 +42,42 @@ const multiply = (num1, num2) => {
 return num1 * num2
 }
 console.log(multiply(5,5))
+
+
+//Problem 6
+
+const add = (num1, num2) => {
+    if (num1 === num2){
+        return num1*3;
+    }
+    else{
+        return num1 + num2;
+    }
+}
+console.log(add(4,4));
+console.log(add(6,3));
+
+//Problem 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Problem 8
+
