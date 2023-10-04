@@ -4,3 +4,4 @@ const fiveToOneHundred = () =>{
         console.log(i)
     }
 }
+fiveToOneHundred()
