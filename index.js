@@ -47,7 +47,7 @@ const add = (integer1, integer2) => {
     if (integer1 === integer2) {
         return  sum * 3
     } else {
-        return integer1 + integer2
+        return sum
     }
 }
 
@@ -70,3 +70,11 @@ const isNegative = (num) =>{
 //console.log(isNegative(3))
 //console.log(isNegative(-2))
 //console.log(isNegative(Math.PI))
+
+//Question 8
+const triangleArea = (height, base) => {
+    let area = (1/2) * height * base
+    console.log(area)
+}
+triangleArea(5, 7);    //returns 17.5
+triangleArea(6, 8);    //returns 24
