@@ -33,3 +33,7 @@ const untilNum = (num) => {
         console.log(i);
     }
 };
+
+const multiply = (a, b) => {
+    return a * b;
+};
