@@ -99,11 +99,6 @@ console.log(betweenTwentyAndForty(56))
 
 
 
-
-
-
-
-
 //Problem 10
 
 const largest = (num1, num2, num3) => {
