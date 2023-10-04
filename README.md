@@ -1,4 +1,4 @@
-# Intro to Git and JavaScript Pairing Lab
+,# Intro to Git and JavaScript Pairing Lab
 
 The purpose of this lab is to get you and your partner familiar with `git`, specifically, how to:
 * Fork a repository
