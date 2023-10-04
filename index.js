@@ -1,13 +1,12 @@
 //Code your solutions in this file
 
-/*const fiveToOneHundred = () => {
+const fiveToOneHundred = () => {
 for (i =5; i <= 100; i++) {
     console.log(i)
 }
 }
 (fiveToOneHundred());
-*/
-/*
+
 //Problem 2
 const multiplesOfThree = () =>{
     for (let i = 0; i <= 100; i+=3)
@@ -16,7 +15,7 @@ const multiplesOfThree = () =>{
     }
 }
 multiplesOfThree();
-*/
+
 const multipleOfThreeOrFive = (num) => {
     for (let i =0; i <= 100; i++  )
     
@@ -25,3 +24,4 @@ const multipleOfThreeOrFive = (num) => {
     }
 }
 multipleOfThreeOrFive(100)
+ 
