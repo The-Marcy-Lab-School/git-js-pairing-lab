@@ -69,23 +69,30 @@ const isNegative = (num) => {
 }
 console.log(isNegative(-9))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Problem 8
+
+const triangleArea = (num1, num2) =>{
+    const area = (num1*num2)*1/2;
+    return area
+}
+console.log(triangleArea(5,7));
+
+//Problem 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
