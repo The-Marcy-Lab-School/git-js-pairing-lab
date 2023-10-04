@@ -1,5 +1,9 @@
 //Code your solutions in this file
-function greet(){
-    console.log("Hello");
+const fiveToOneHundred = () => {
+for (i =5; i <= 100; i++) {
+    console.log(i)
 }
-greet()
+}
+(fiveToOneHundred());
+
+
