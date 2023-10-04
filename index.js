@@ -28,4 +28,5 @@ const untilNum = (integer) => {
         console.log(i)
     }
 }
-console.log(untilNum(6))
+console.log(untilNum(6)) 
+//
