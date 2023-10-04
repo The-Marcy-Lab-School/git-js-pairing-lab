@@ -37,3 +37,8 @@ const untilNum = (num) => {
 untilNum(36);
 
 //Problem 5
+
+const multiply = (num1, num2) => {
+return num1 * num2
+}
+console.log(multiply(5,5))
