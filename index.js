@@ -79,8 +79,14 @@ console.log(triangleArea(5,7));
 
 //Problem 9
 
-
-
+const betweenTwentyAndForty = (num) => {
+    if(num > 20 && num < 40) {
+        return true 
+    } else {
+        return false
+    }
+}
+console.log(betweenTwentyAndForty(56))
 
 
 
