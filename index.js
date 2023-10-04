@@ -59,7 +59,15 @@ console.log(add(6,3));
 
 //Problem 7
 
+const isNegative = (num) => {
+    if(num < 0){
+        return true
+    } else{
+        return false
+    }
 
+}
+console.log(isNegative(-9))
 
 
 
