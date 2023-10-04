@@ -22,5 +22,3 @@ const multiplesOfThreeOrFive=()=>{
     }
 }
 console.log(multiplesOfThreeOrFive())
-
-
