@@ -29,6 +29,14 @@ const untilNum = (num) => {
     for (i=1; i <= num; i++)
     console.log(i)
 }
-untilNum(5);    //prints out numbers 1 through 5
-untilNum(9);    //prints out numbers 1 through 9
-untilNum(42);   //prints out numbers 1 through 42
+//untilNum(5);    //prints out numbers 1 through 5
+//untilNum(9);    //prints out numbers 1 through 9
+//untilNum(42);   //prints out numbers 1 through 42
+
+//Question 5
+
+const multiply = (num1,num2) =>{
+return num1 * num2
+}
+//console.log(multiply(1,5))
+
