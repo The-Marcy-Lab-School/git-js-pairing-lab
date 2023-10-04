@@ -1,5 +1,6 @@
 //Code your solutions in this file
 
+//Problem 1
 const fiveToOneHundred = () => {
 for (i =5; i <= 100; i++) {
     console.log(i)
@@ -16,6 +17,7 @@ const multiplesOfThree = () =>{
 }
 multiplesOfThree();
 
+//Problem 3
 const multipleOfThreeOrFive = (num) => {
     for (let i =0; i <= 100; i++  )
     
@@ -24,4 +26,14 @@ const multipleOfThreeOrFive = (num) => {
     }
 }
 multipleOfThreeOrFive(100)
- 
+
+//Problem 4
+
+const untilNum = (num) => {
+    for (let i = 1; i <= num; i++){
+        console.log(i);
+    }
+}
+untilNum(36);
+
+//Problem 5
