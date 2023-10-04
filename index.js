@@ -40,3 +40,19 @@ return num1 * num2
 }
 //console.log(multiply(1,5))
 
+//Question 6
+const add = (integer1, integer2) => {
+    let sum = integer1 + integer2
+    
+    if (integer1 === integer2) {
+        return  sum * 3
+    } else {
+        return integer1 + integer2
+    }
+}
+
+console.log( add(2, 4));     //returns 6
+console.log( add(10, -5));   //returns 5
+console.log( add(3, 7.5));   //returns 10.5
+console.log( add(5, 5));     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
+console.log( add(6, 6));     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
