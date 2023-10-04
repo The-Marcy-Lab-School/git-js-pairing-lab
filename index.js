@@ -47,3 +47,15 @@ console.log(add(10, -5));
 console.log(add(3, 7.5));
 console.log(add(5, 5));
 console.log(add(6, 6));
+
+const isNegative = (num) => {
+    if(Math.sign(num) === -1 ){
+    console.log(true)
+   } else {
+    console.log(false)
+   }
+}
+
+isNegative(3)         //returns false
+isNegative(-1)        //returns true
+isNegative(Math.PI)   //returns false
