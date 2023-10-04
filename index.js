@@ -29,9 +29,9 @@ const untilNum = (num) => {
     for (i=1; i <= num; i++)
     console.log(i)
 }
-//untilNum(5);    //prints out numbers 1 through 5
-//untilNum(9);    //prints out numbers 1 through 9
-//untilNum(42);   //prints out numbers 1 through 42
+//untilNum(5);    prints out numbers 1 through 5
+//untilNum(9);    prints out numbers 1 through 9
+//untilNum(42);   prints out numbers 1 through 42
 
 //Question 5
 
@@ -51,8 +51,22 @@ const add = (integer1, integer2) => {
     }
 }
 
-console.log( add(2, 4));     //returns 6
-console.log( add(10, -5));   //returns 5
-console.log( add(3, 7.5));   //returns 10.5
-console.log( add(5, 5));     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
-console.log( add(6, 6));     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
+//console.log( add(2, 4));     returns 6
+//console.log( add(10, -5));   eturns 5
+//console.log( add(3, 7.5));   returns 10.5
+//console.log( add(5, 5));     returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
+//console.log( add(6, 6));     eturns 36 because the sum of 6 + 6 = 12 and 36 is triple that
+
+//question 7
+
+const isNegative = (num) =>{
+    if(num * -1 < 0){
+        return false
+    }else{
+        return true
+    }
+}
+
+//console.log(isNegative(3))
+//console.log(isNegative(-2))
+//console.log(isNegative(Math.PI))
