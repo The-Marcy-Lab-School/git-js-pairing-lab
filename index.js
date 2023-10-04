@@ -104,6 +104,7 @@ const largest = (num1, num2, num3) => {
     }
 }
 
-console.log( largest(4, 6, 8));      //returns 8
-console.log( largest(30, 22, 17));    //returns 30
-console.log( largest(41, 108, 86));    //returns 108
+///console.log( largest(4, 6, 8));      //returns 8
+//console.log( largest(30, 22, 17));    //returns 30
+//console.log( largest(41, 108, 86));    //returns 108
+
