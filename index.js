@@ -22,4 +22,13 @@ const multiplesOfThreeOrFive = () =>{
          }
     }
 }
-multiplesOfThreeOrFive();
+//multiplesOfThreeOrFive();
+
+//Problem 4
+const untilNum = (num) => {
+    for (i=1; i <= num; i++)
+    console.log(i)
+}
+untilNum(5);    //prints out numbers 1 through 5
+untilNum(9);    //prints out numbers 1 through 9
+untilNum(42);   //prints out numbers 1 through 42
