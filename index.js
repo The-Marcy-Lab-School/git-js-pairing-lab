@@ -37,3 +37,13 @@ const untilNum = (num) => {
 const multiply = (a, b) => {
     return a * b;
 };
+
+const add = (a, b) => {
+    return a === b ? (a + b) * 3 : a + b;
+};
+
+console.log(add(2, 4));
+console.log(add(10, -5));
+console.log(add(3, 7.5));
+console.log(add(5, 5));
+console.log(add(6, 6));
