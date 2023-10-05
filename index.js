@@ -28,3 +28,8 @@ add(6, 6)
 
 //7 
 const isNegative = (negativ1,num2)
+
+//8
+const triangleArea = (num1, num2) => {console.log((num1 * num2)/2)}
+triangleArea(5, 7)
+triangleArea(6, 8)
