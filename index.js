@@ -119,27 +119,27 @@ console.log( largest(41, 108, 86));    //returns 108
 
 //Question 11.)
 
-const printTime = () =>{
-    let today =  new Date();
-    console.log(`${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`)
-}
+//const printTime = () =>{
+//   let today =  new Date();
+//    console.log(`${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`)
+//}
 
 //printTime()        //prints current time locally
 
 
 //Question 12.)
 
-const isLeapYear = (year) =>{
-    if(year%4 != 0){
-        return false
-    }else if(year%100 != 0){
-        return true
-    }else if(year%400 != 0){
-        return false
-    }else{
-        return true
-    }
-}
+//const isLeapYear = (year) =>{
+//    if(year%4 != 0){
+//        return false
+//    }else if(year%100 != 0){
+//        return true
+//    }else if(year%400 != 0){
+//        return false
+//    }else{
+//        return true
+//    }
+//}
   
 /*
 console.log(isLeapYear(2000))    //returns true
@@ -151,9 +151,9 @@ console.log(isLeapYear(1999))    //returns false
 
 //Question 13.)
 
-const getExtention = (fileName) =>{
-   return fileName.slice(fileName.indexOf('.'));
-}
+//const getExtention = (fileName) =>{
+ //  return fileName.slice(fileName.indexOf('.'));
+//}
 
 /*
 console.log(getExtention("hello.txt"))     //returns ".txt"
@@ -164,5 +164,42 @@ console.log(getExtention("README.md"))    //returns ".md"
 
 //Question 14.)
 
-const absoluteNineteen = () =>
+//const absoluteNineteen = () => {
+
+//}
 //TO BE CONTINUED
+
+ 
+// Ismael's Bonus Question
+//11
+
+const printTime = () => {
+    let today = new Date();
+    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    return time;
+}
+console.log(printTime());
+
+console.log('--------')
+
+// 12
+const isLeapYear = (year) => {
+    return (year % 4 === 0  && year % 100 !== 0) || (year % 400 === 0);
+}
+
+console.log(isLeapYear(2000)); //returns true
+console.log( isLeapYear(1900));    //returns false
+console.log( isLeapYear(2020));    //returns true
+console.log( isLeapYear(1999));    //returns false
+
+console.log('------')
+// 13
+
+const getExtention = (fileName) => {
+    return fileName.slice(fileName.indexOf('.'))
+}
+console.log( getExtention("hello.txt"));     //returns ".txt"
+console.log( getExtention("app.js"));        //returns ".js"
+console.log( getExtention("README.md"));    //returns ".md"
+
+// 14 
