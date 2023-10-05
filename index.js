@@ -25,3 +25,6 @@ const add = (num1, num2) => {
 }
 add(3, 7.5)
 add(6, 6)
+
+//7 
+const isNegative = (negativ1,num2)
