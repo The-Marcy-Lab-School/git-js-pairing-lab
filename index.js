@@ -124,7 +124,8 @@ const changeString = (str) => {
     test("getExtension", () => assertEq(getExtension("app.js"), ".js"));
     test("getExtension", () => assertEq(getExtension("README.md"), ".md"));
 
-    // TODO: absoluteNineteen tests
+    test("absoluteNineteen", () => assertEq(absoluteNineteen(20), 3)); // |20 - 19| * 3  // |1| * 3 // 3
+    test("absoluteNineteen", () => assertEq(absoluteNineteen(5), 3));  // |5 - 19|       // |-14| // 14
 
     test("switchLetters", () => assertEq(switchLetters("anne"), "enna"));
     test("switchLetters", () => assertEq(switchLetters("hello world"), "dello worlh"));
