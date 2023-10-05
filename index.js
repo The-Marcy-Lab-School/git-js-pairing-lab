@@ -18,9 +18,11 @@ multiplesOfThree();
 
 //3
 const multiplesOfThreeOrFive = () => {
-  for (let i = 3; i <= 100; i += 3) {
-    console.log(i);
-  }
+  for (let i = 3; i <= 100; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      console.log(i);
+    }
+  
 };
 multiplesOfThreeOrFive();
 
@@ -50,7 +52,13 @@ add(3, 7.5);
 add(6, 6);
 
 //7
-const isNegative = (negativ1, num2);
+const isNegative = (positve) => {
+  if (postive < 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 //8
 const triangleArea = (num1, num2) => {
