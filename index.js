@@ -44,6 +44,9 @@ const isNegative = (num) => {
 
 // 8
 const triangleArea = (height, base) => 0.5 * base * height;
+// 9
+const betweenTwentyAndFourty = (num) => num >= 20 && num <=40 ? true : false
+
 
 // 10
 const largest = (num1, num2, num3) => Math.max(num1, num2, num3);
