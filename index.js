@@ -50,12 +50,14 @@ console.log(add(6, 6));
 
 const isNegative = (num) => {
     if(Math.sign(num) === -1 ){
-    console.log(true)
+    return true
    } else {
-    console.log(false)
+    return false
    }
 }
 
 isNegative(3)         //returns false
 isNegative(-1)        //returns true
 isNegative(Math.PI)   //returns false
+
+
