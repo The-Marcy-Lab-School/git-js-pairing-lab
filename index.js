@@ -56,4 +56,8 @@ const untilNum=(num)=>{
     }
     }
     console.log(isNegative(-5))
- 
+ //9
+ const triangleArea=(b,h)=>{
+    return 1/2*(b*h)
+}
+console.log(triangleArea(5,4))
