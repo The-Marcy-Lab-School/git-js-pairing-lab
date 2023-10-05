@@ -1,10 +1,12 @@
 //Code your solutions in this file
+//1
 const fiveToOneHundred=()=>{
     for(let i=5;i<=100;i++){
         console.log(i)
     }
 }
-console.log(multiplesOfThree())
+fiveToOneHundred()
+//2
 const multiplesOfThree=()=>{
     for(let i=3;i<100;i++){
         if(i%3===0){
@@ -12,8 +14,8 @@ const multiplesOfThree=()=>{
         }
     }
 }
-console.log(multiplesOfThree()) 
-
+multiplesOfThree() 
+//3
 const multiplesOfThreeOrFive=()=>{
     for(let i=3;i<100;i++){
         if(i%3===0){
@@ -21,7 +23,7 @@ const multiplesOfThreeOrFive=()=>{
         }
     }
 }
-console.log(multiplesOfThreeOrFive())
+multiplesOfThreeOrFive()
 // 4
 const untilNum = (integer) => {
     for(let i=1;i<=integer;i++) {
@@ -29,4 +31,4 @@ const untilNum = (integer) => {
     }
 }
 console.log(untilNum(6)) 
-//
+//5
