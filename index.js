@@ -33,3 +33,6 @@ const isNegative = (negativ1,num2)
 const triangleArea = (num1, num2) => {console.log((num1 * num2)/2)}
 triangleArea(5, 7)
 triangleArea(6, 8)
+
+//9
+const betweenTwentyAndFourty = (num) => num >= 20 && num <= 40;
