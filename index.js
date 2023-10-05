@@ -36,9 +36,9 @@ const add = (a, b) => {
 
 const isNegative = (num) => {
     if (Math.sign(num) === -1) {
-        console.log(true);
+        return true;
     } else {
-        console.log(false);
+        return false;
     }
 };
 
