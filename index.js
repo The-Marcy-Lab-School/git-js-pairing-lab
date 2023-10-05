@@ -50,11 +50,22 @@ const betweenTwentyAndFourty = (num) => num >= 20 && num <=40 ? true : false
 
 // 10
 const largest = (num1, num2, num3) => Math.max(num1, num2, num3);
+// 11
+const printTime = (HH, MM, ss) => {
+    if(MM < 10) {
+        return `${HH}:0${MM}:${ss}`
+    } else {
+        return `${HH}:${MM}:${ss}`
+    }
+} 
+
 
 // 12
 const isLeapYear = (year) => {
     return year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
 };
+
+//1
 
 // 14
 const absoluteNineteen = (num) => Math.abs(num - 19) * num > 19 ? 3 : 1;
@@ -114,7 +125,9 @@ const changeString = (str) => {
     test("largest", () => assertEq(largest(4, 6, 8), 8));
     test("largest", () => assertEq(largest(30, 22, 17), 30));
     test("largest", () => assertEq(largest(41, 108, 86), 108));
-
+    
+    test("printTime", () => assertEq(printTime(1, 30, 26), "1:30:26"));
+    test("printTime", () => assertEq(printTime(12, 8, 44), "12:08:44"));
     // TODO: printTime tests
 
     test("isLeapYear", () => assertEq(isLeapYear(2000), true));
