@@ -4,9 +4,6 @@ const fiveToOneHundred = () => {
     }
 };
 
-//Write a function multiplesOfThree that console logs all positive numbers to 100 that is a multiple of 3.
-
-
 const multiplesOfThree = () => {
     for (let i = 1; i <= 100; i++) {
         if (i % 3 === 0) {
@@ -14,11 +11,6 @@ const multiplesOfThree = () => {
         }
     }
 };
-
-/* 
-Write a function multiplesOfThreeOrFive that console logs all positive numbers to 100 if that number is either a mulitple of 3 or a mutliple of 5.
-*/
-
 
 const multiplesOfThreeOrFive = () => {
     for (let i = 1; i <= 100; i++) {
@@ -43,12 +35,12 @@ const add = (a, b) => {
 };
 
 const isNegative = (num) => {
-    if(Math.sign(num) === -1 ){
-    console.log(true)
-   } else {
-    console.log(false)
-   }
-}
+    if (Math.sign(num) === -1) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+};
 
 // 8
 const triangleArea = (height, base) => 0.5 * base * height;
