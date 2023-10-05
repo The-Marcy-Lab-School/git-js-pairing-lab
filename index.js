@@ -46,4 +46,14 @@ const untilNum=(num)=>{
  }
  console.log(add(5,3))
  //7
+ const isNegative=(num)=>{
+    if(num===0){
+        console.log('Number is neither positive nor negative')
+    }else if(num<0){
+        return true
+    }else{
+        return false
+    }
+    }
+    console.log(isNegative(-5))
  
