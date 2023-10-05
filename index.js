@@ -14,3 +14,10 @@ multiplesOfThreeOrFive()
 //4
 const untilNum = num => {for (i = 1; i <= num; i++){console.log(i)}}
 untilNum(9)
+
+//5 
+  const multiply = (num1, num2) =>{
+    return num1 * num2;
+  }
+  console.log(multiply(2, 4));
+  
