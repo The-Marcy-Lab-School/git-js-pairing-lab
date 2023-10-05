@@ -8,7 +8,7 @@ multiplesOfThree()
 
 //3
 const multiplesOfThreeOrFive = () => {for (let i = 3; i <= 100; i += 3) {console.log(i);}};
-multiplesOfThreeOrFive()
+multiplesOfThreeOrFive()b
 
 //4
 const untilNum = num => {for (i = 1; i <= num; i++){console.log(i)}}
