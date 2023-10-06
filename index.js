@@ -70,3 +70,16 @@ const betweenTwentyAndFourty=(num)=>{
     }
 }
 console.log(betweenTwentyAndFourty(21))
+//10
+const largest=(num1,num2,num3)=>{
+    const greatestOfTwo=(num1,num2)=>{
+        if (num1>num2){
+            return num1
+        }else{
+            return num2
+        }
+    }
+    const first2=greatestOfTwo(num1,num2)
+    return greatestOfTwo(first2,num3)
+}
+console.log(largest(4, 6, 8))
