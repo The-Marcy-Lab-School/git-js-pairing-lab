@@ -18,7 +18,7 @@ multiplesOfThree()
 //3
 const multiplesOfThreeOrFive=()=>{
     for(let i=3;i<100;i++){
-        if(i%3===0){
+        if( i%3===0){
             console.log(i)
         }
     }
@@ -29,8 +29,8 @@ const untilNum=(num)=>{
     for(let i=1;i<=num;i++){
         console.log(i)
     }
-    }
-    untilNum(5)
+}
+console.loguntilNum(5)
  //5
  const multiply=(num1,num2)=>{
     return num1*num2
@@ -54,7 +54,7 @@ const untilNum=(num)=>{
     }else{
         return false
     }
-    }
+}
     console.log(isNegative(-5))
  //8
  const triangleArea=(b,h)=>{
