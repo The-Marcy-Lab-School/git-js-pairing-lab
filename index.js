@@ -18,7 +18,7 @@ multiplesOfThree()
 //3
 const multiplesOfThreeOrFive=()=>{
     for(let i=3;i<100;i++){
-        if( i%3===0){
+        if( i%3===0 || i%5==0){
             console.log(i)
         }
     }
