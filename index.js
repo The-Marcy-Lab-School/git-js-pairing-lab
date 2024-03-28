@@ -7,4 +7,4 @@ const fiveToOneHundred = () => {
     return;
 }
 
-fiveToOneHundred()
+fiveToOneHundred();
