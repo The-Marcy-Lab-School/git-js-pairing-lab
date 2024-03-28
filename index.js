@@ -53,12 +53,17 @@ const add = (num1, num2) => {
 
 
   console.log(add(3, 5));
-  */
+  
 
   // question 7
   const isNegative = (num1) =>{
     return num1 < 0;
   }
   console.log(isNegative(-1));
+*/
 
-//8
+const triangleArea = (height, base) => {
+  return 0.5 * height * base;
+};
+
+console.log(triangleArea(5, 7));
