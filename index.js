@@ -33,6 +33,11 @@ const untilNum = (num) => {
     for (i = 1; i <= num; i++) {
         console.log(i)
     }
-
 }
 untilNum(5)
+
+const multiply = (num1, num2) => {
+    let product = num1 * num2;
+    return product
+  };
+  console.log(multiply(2, 4)); // return 8
