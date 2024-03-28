@@ -5,3 +5,7 @@
 }
 
 fiveToOneHundred()
+
+const ques2 = () => {
+    
+}
