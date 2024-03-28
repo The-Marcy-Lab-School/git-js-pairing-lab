@@ -28,7 +28,7 @@ const multiplesOfThreeOrFive =() => {
     }
 }
 multiplesOfThreeOrFive();
-*/
+
 
 const untilNum = (num) => {
     for (let i = 1; i <= num; i++) {
@@ -37,3 +37,10 @@ const untilNum = (num) => {
   };
 
 untilNum(5);
+*/
+
+const multiply = (num1, num2) => {
+    return num1 * num2
+};
+
+console.log(multiply(3, 5));
