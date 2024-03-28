@@ -60,10 +60,14 @@ const add = (num1, num2) => {
     return num1 < 0;
   }
   console.log(isNegative(-1));
-*/
+
 
 const triangleArea = (height, base) => {
   return 0.5 * height * base;
 };
 
 console.log(triangleArea(5, 7));
+
+*/ 
+
+//anywhere
