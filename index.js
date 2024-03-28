@@ -1,13 +1,23 @@
-/*Code your solutions in this fill
+//Fiona - Question 1: fiveToOneHundred
 const fiveToOneHundred = () => {
     for (let i = 5 ; i <= 100; i++){
     console.log(i)
     }
 }
-
 fiveToOneHundred();
-*/
 
+
+//Abdullah - Question 2: multiplesOfThree
+const multiplesOfThree = () => {
+    for (let i = 3; i <= 100; i++) {
+        if (i % 3 == 0) {
+            console.log(i);
+        }
+    }
+}
+console.log(multiplesOfThree(100))
+
+//Fiona - Question 3: multiplesOfThreeOrFive
 const multiplesOfThreeOrFive = () => {
     for (let i = 1; i <= 100; i++) {
         if (i % 3 == 0 || i % 5 == 0) {
