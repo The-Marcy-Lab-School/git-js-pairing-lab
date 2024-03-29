@@ -13,3 +13,11 @@ const multiplesOfThree = () => {
     }
 }
 console.log(multiplesOfThree());
+
+// Jahmari-problem 3: multiplesOfThreeOrFive
+const multiplesOfThreeOrFive = () => {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 || i % 5 === 0) console.log(i);
+    }
+};
+console.log(multiplesOfThreeOrFive());
