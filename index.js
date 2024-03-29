@@ -14,7 +14,13 @@ const multiplesOfThree = () => {
 }
 console.log(multiplesOfThree());
 
-console.log('-----')
+// Jahmari-problem 3: multiplesOfThreeOrFive
+const multiplesOfThreeOrFive = () => {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 || i % 5 === 0) console.log(i);
+    }
+};
+console.log(multiplesOfThreeOrFive());
 
 // Patrick-problem 4: untilNum();
 const untilNum = (num) => {
@@ -25,4 +31,4 @@ const untilNum = (num) => {
 
 console.log(untilNum(5))
 
-console.log('-----')
+
