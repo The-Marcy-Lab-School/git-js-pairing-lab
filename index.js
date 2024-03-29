@@ -31,4 +31,8 @@ const untilNum = (num) => {
 
 console.log(untilNum(5))
 
-
+// Jahmari-problem 5: multiply();
+const multiply = (num1, num2) => {
+    console.log(num1 * num2);
+};
+multiply(4, 5);
