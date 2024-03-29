@@ -35,4 +35,17 @@ console.log(untilNum(5))
 const multiply = (num1, num2) => {
     console.log(num1 * num2);
 };
-multiply(4, 5);
+console.log(multiply(4, 5));
+
+
+// Patrick-problem 6: add();
+const add = (arg1, arg2) => {
+    if (arg1 === arg2) {
+        return (arg1 + arg2) * 3
+    } else {
+        return (arg1 + arg2)
+    }
+}
+console.log(add(6, 6));
+
+
