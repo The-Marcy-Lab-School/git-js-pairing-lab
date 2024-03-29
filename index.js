@@ -48,4 +48,13 @@ const add = (arg1, arg2) => {
 }
 console.log(add(6, 6));
 
-
+// Jahmari-problem 7: betweenTwentyAndFourty();
+const betweenTwentyAndFourty = (num) => {
+    if (num > 20 && num < 40) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(betweenTwentyAndFourty(19));
