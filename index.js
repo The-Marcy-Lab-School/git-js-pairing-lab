@@ -31,8 +31,14 @@ const untilNum = (num) => {
 
 console.log(untilNum(5))
 
+// Jahmari-problem 5: multiply();
+const multiply = (num1, num2) => {
+    console.log(num1 * num2);
+};
+console.log(multiply(4, 5));
 
-// problem 6 
+
+// Patrick-problem 6: add();
 const add = (arg1, arg2) => {
     if (arg1 === arg2) {
         return (arg1 + arg2) * 3
@@ -40,9 +46,6 @@ const add = (arg1, arg2) => {
         return (arg1 + arg2)
     }
 }
-console.log(add(2, 4))
-console.log(add(10, -5))
-console.log(add(3, 7.5))
-console.log(add(5, 5))
-console.log(add(6, 6))
+console.log(add(6, 6));
+
 
