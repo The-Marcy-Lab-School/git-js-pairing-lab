@@ -32,3 +32,17 @@ const untilNum = (num) => {
 console.log(untilNum(5))
 
 
+// problem 6 
+const add = (arg1, arg2) => {
+    if (arg1 === arg2) {
+        return (arg1 + arg2) * 3
+    } else {
+        return (arg1 + arg2)
+    }
+}
+console.log(add(2, 4))
+console.log(add(10, -5))
+console.log(add(3, 7.5))
+console.log(add(5, 5))
+console.log(add(6, 6))
+
