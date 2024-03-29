@@ -49,3 +49,10 @@ const add = (arg1, arg2) => {
 console.log(add(6, 6));
 
 
+// Patrick-problem 8 : triangleArea()
+
+const triangleArea = (arg1, arg2) => {
+    return (arg1 * arg2) / 2
+}
+console.log(triangleArea(5, 7))    //returns 17.5
+
