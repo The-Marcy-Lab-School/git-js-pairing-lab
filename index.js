@@ -6,9 +6,10 @@ const fiveToOneHundred = () => {
         console.log(i);
     }
 };
-
+console.log('\n')
 console.log('Problem 1:');
 fiveToOneHundred();
+
 
 // Problem 2
 const multiplesOfThree = () =>{
@@ -16,8 +17,10 @@ const multiplesOfThree = () =>{
         console.log(i)
     }
 }
+console.log('\n')
 console.log('Problem 2:');
 multiplesOfThree();
+
 
 // Problem 3
 const multiplesOfThreeOrFive = () => {
@@ -27,9 +30,10 @@ const multiplesOfThreeOrFive = () => {
         }
     }
 };
-
+console.log('\n')
 console.log('Problem 3:');
 multiplesOfThreeOrFive();
+
 
 //Problem 4
 const untilNum = (int) =>{
@@ -37,16 +41,35 @@ const untilNum = (int) =>{
         console.log(i)
     }
 }
+console.log('\n')
 console.log('Problem 4');
 untilNum(5);
+
 
 // Problem 5:
 const multiply = (num1, num2) => {
     const finalVal = num1 * num2;
     return finalVal;
 };
-
+console.log('\n')
 console.log('Problem 5:');
 console.log(multiply(2, 4));     //returns 8
 console.log(multiply(10, -5));  //returns -50
 console.log(multiply(3, 7.5));  //returns 22.5
+
+
+//Problem 6
+const add = (num1, num2) => {
+    if (num1 === num2){
+        return 3 * (num1 + num2);
+    }else{
+        return num1 + num2;
+    }
+}
+console.log('\n')
+console.log('Problem 6')
+console.log(add(2,4))
+console.log(add(10, -5))
+console.log(add(3, 7.5))
+console.log(add(5, 5))
+console.log(add(6, 6))
