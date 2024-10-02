@@ -11,12 +11,22 @@ console.log('Problem 1:');
 fiveToOneHundred();
 
 // Problem 2
-
 const multiplesOfThree = () =>{
     for (i = 3; i <= 100; i+=3){
-        ;
         console.log(i)
     }
 }
 console.log('Problem 2:');
 multiplesOfThree();
+
+// Problem 3
+const multiplesOfThreeOrFive = () => {
+    for (let i = 3; i <= 100; i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+            console.log(i);
+        }
+    }
+};
+
+console.log('Problem 3:');
+multiplesOfThreeOrFive();
