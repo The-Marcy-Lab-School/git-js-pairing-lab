@@ -89,13 +89,14 @@ console.log(isNegative(-2));       //returns true
 console.log(isNegative(Math.PI));  //returns false
 
 // Problem 8
-const triangleArea = (height, base) =>{
-    return 0.5 * base * height
-}
-console.log('\n')
-console.log("Problem 8:")
-console.log(triangleArea(5, 7))
-console.log(triangleArea(6, 8))
+const triangleArea = (height, base) => {
+    return 0.5 * base * height;
+};
+
+console.log('\n');
+console.log("Problem 8:");
+console.log(triangleArea(5, 7));
+console.log(triangleArea(6, 8));
 
 //Problem 9
 const betweenTwentyAndFourty = (num) => {
@@ -122,8 +123,21 @@ const largest = (a, b ,c) =>{
         return c
     }
 }
-console.log('\n')
-console.log('Problem 10:')
-console.log(largest(4, 6, 8))
-console.log(largest(30, 22, 17))
-console.log(largest(41, 108, 86))
+console.log('\n');
+console.log('Problem 10:');
+console.log(largest(4, 6, 8));
+console.log(largest(30, 22, 17));
+console.log(largest(41, 108, 86));
+
+// Bonus 1
+const printTime = () => {
+    const currentTime = new Date();
+    const hour = currentTime.getHours();
+    const minute = currentTime.getMinutes();
+    const second = currentTime.getSeconds();
+    console.log(`${hour}:${minute}:${second}`);
+};
+
+console.log('\n');
+console.log('Bonus 1:');
+printTime();
