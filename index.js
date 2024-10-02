@@ -13,9 +13,10 @@ fiveToOneHundred();
 // Problem 2
 
 const multiplesOfThree = () =>{
-    for (i = 3; (i + 3) <= 100; i++;){
+    for (i = 3; i <= 100; i+=3){
+        ;
         console.log(i)
     }
 }
 console.log('Problem 2:');
-multiplesOfThree()
+multiplesOfThree();
