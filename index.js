@@ -112,3 +112,18 @@ console.log(betweenTwentyAndFourty(20));    //return false
 console.log(betweenTwentyAndFourty(21));    //return true
 console.log(betweenTwentyAndFourty(39));   //return true
 console.log(betweenTwentyAndFourty(40));   //return false
+
+const largest = (a, b ,c) =>{
+    if (a > b && a > c){
+        return a
+    } else if (b > a && b > c){
+        return b
+    }else{
+        return c
+    }
+}
+console.log('\n')
+console.log('Problem 10:')
+console.log(largest(4, 6, 8))
+console.log(largest(30, 22, 17))
+console.log(largest(41, 108, 86))
