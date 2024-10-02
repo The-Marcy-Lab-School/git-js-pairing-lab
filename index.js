@@ -39,3 +39,14 @@ const untilNum = (int) =>{
 }
 console.log('Problem 4');
 untilNum(5);
+
+// Problem 5:
+const multiply = (num1, num2) => {
+    const finalVal = num1 * num2;
+    return finalVal;
+};
+
+console.log('Problem 5:');
+console.log(multiply(2, 4));     //returns 8
+console.log(multiply(10, -5));  //returns -50
+console.log(multiply(3, 7.5));  //returns 22.5
