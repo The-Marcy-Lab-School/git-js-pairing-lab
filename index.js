@@ -82,8 +82,16 @@ const isNegative = (value) => {
         return false;
     }
 };
-console.log('/n');
+console.log('\n');
 console.log('Problem 7:');
 console.log(isNegative(3));        //returns false
 console.log(isNegative(-2));       //returns true
 console.log(isNegative(Math.PI));  //returns false
+
+const triangleArea = (height, base) =>{
+    return 0.5 * base * height
+}
+console.log('\n')
+console.log("Problem 8:")
+console.log(triangleArea(5, 7))
+console.log(triangleArea(6, 8))
