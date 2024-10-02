@@ -30,3 +30,12 @@ const multiplesOfThreeOrFive = () => {
 
 console.log('Problem 3:');
 multiplesOfThreeOrFive();
+
+//Problem 4
+const untilNum = (int) =>{
+    for(i = 1; i <= int; i++){
+        console.log(i)
+    }
+}
+console.log('Problem 4');
+untilNum(5);
