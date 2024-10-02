@@ -88,6 +88,7 @@ console.log(isNegative(3));        //returns false
 console.log(isNegative(-2));       //returns true
 console.log(isNegative(Math.PI));  //returns false
 
+// Problem 8
 const triangleArea = (height, base) =>{
     return 0.5 * base * height
 }
@@ -95,3 +96,19 @@ console.log('\n')
 console.log("Problem 8:")
 console.log(triangleArea(5, 7))
 console.log(triangleArea(6, 8))
+
+//Problem 9
+const betweenTwentyAndFourty = (num) => {
+    if (num > 20 && num < 40) {
+        return true;
+    } else {
+        return false;
+    }
+};
+
+console.log('\n');
+console.log('Problem 9');
+console.log(betweenTwentyAndFourty(20));    //return false
+console.log(betweenTwentyAndFourty(21));    //return true
+console.log(betweenTwentyAndFourty(39));   //return true
+console.log(betweenTwentyAndFourty(40));   //return false
