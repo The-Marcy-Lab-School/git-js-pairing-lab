@@ -73,3 +73,17 @@ console.log(add(10, -5))
 console.log(add(3, 7.5))
 console.log(add(5, 5))
 console.log(add(6, 6))
+
+// Problem 7
+const isNegative = (value) => {
+    if (value < 0) {
+        return true;
+    } else {
+        return false;
+    }
+};
+console.log('/n');
+console.log('Problem 7:');
+console.log(isNegative(3));        //returns false
+console.log(isNegative(-2));       //returns true
+console.log(isNegative(Math.PI));  //returns false
