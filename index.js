@@ -141,3 +141,49 @@ const printTime = () => {
 console.log('\n');
 console.log('Bonus 1:');
 printTime();
+
+// Bonus 4
+const absoluteNineteen = (num) =>{
+    const difference = Math.abs(num - 19);
+        return num > 19 ? 3 * difference : difference
+}
+
+console.log('\n Bonus 4:')
+console.log(absoluteNineteen(22))
+console.log(absoluteNineteen(14))
+
+//Bonus 5
+const switchLetters = (str) =>{
+    if (str.length < 2){
+        return str;
+    }
+    const firstChar = str[0];
+    const lastChar = str[str.length - 1];
+    const midStr = str.slice(1, -1);
+
+    return lastChar + midStr + firstChar
+}
+
+console.log('\n Bonus 5:')
+console.log(switchLetters("anne"));
+console.log(switchLetters("hello world"));
+console.log(switchLetters("a"));
+console.log(switchLetters(""));
+
+//Bonus 6
+const changeString = (str) =>{
+    return str.replace(/[a-zA-Z]/g, (char) =>{
+
+        if (char === 'z')
+            return 'a';
+        if (char === 'Z')
+            return 'A';
+
+        return String.fromCharCode(char.charCodeAt(0) + 1);
+    });
+};
+
+console.log('\n Bonus: 6');
+console.log(changeString('hello'));
+console.log(changeString('xyz'));
+console.log(changeString('Hello!'));
