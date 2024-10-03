@@ -142,6 +142,37 @@ console.log('\n');
 console.log('Bonus 1:');
 printTime();
 
+// Bonus 2
+const isLeapYear = (yearVal) => {
+    if ((yearVal % 4 === 0 && yearVal % 100 !== 0) || yearVal % 400 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+};
+
+console.log('\n');
+console.log('Bonus 2:');
+console.log(isLeapYear(2000));  //returns true
+console.log(isLeapYear(1900));  //returns false
+console.log(isLeapYear(2020));  //returns true
+console.log(isLeapYear(1999));  //returns false
+
+// Bonus 3
+const getExtention = (fileName) => {
+    const grabExtension = fileName.lastIndexOf('.');
+    if (grabExtension === -1) {
+        return 'This file does not have an entension. Please try again!';
+    }
+    return fileName.slice(grabExtension);
+};
+
+console.log('\n');
+console.log('Bonus 3:');
+console.log(getExtention("hello.txt"));    //returns ".txt"
+console.log(getExtention("app.js"));       //returns ".js"
+console.log(getExtention("README.md"));    //returns ".md"
+
 // Bonus 4
 const absoluteNineteen = (num) =>{
     const difference = Math.abs(num - 19);
