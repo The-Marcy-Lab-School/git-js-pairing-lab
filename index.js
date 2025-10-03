@@ -127,5 +127,42 @@ largest(4, 6, 8)        //returns 8
 largest(30, 22, 17)     //returns 30
 largest(41, 108, 86)    //returns 108
 
+//11. Write a function `printTime` that prints out the current time in the format `HH:MM:ss`. Do not hard code the hour, minute, or seconds values.
+const printTime = ()=>{
+  const currentTime = new Date();
+  let hour = currentTime.getHours();
+  let minute = currentTime.getMinutes();
+  let second = currentTime.getSeconds();
+  console.log(`the time right now is ${hour}:${minute}:${second}`);
+}
+printTime();
+
+//12. Write a function `isLeapYear` to determine whether a given year is a [leap year](https://www.rmg.co.uk/stories/topics/which-years-are-leap-years-can-you-have-leap-seconds#:~:text=To%20be%20a%20leap%20year,2028%20are%20all%20leap%20years.) in the Gregorian calendar.
+const isLeapYear=(year)=>{
+  let leapYear = new Date(year,1,29)
+  if(leapYear.getDate() === 29) {
+    return true;
+  } return false;
+};
+
+console.log(isLeapYear(2000));   //returns true
+console.log(isLeapYear(1900));    //returns false
+console.log(isLeapYear(2020));    //returns true
+console.log(isLeapYear(1999));    //returns false
+
+//13. Write a function `getExtention` to get the extension of a filename.
+const getExtention=(str)=>{
+  let arr = str.split("");
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] == ".") {
+      return arr.slice(i).join("")
+    };
+  };
+  return "";
+};
 
 
+
+console.log(getExtention("hello.txt"));     //returns ".txt"
+console.log(getExtention("app.js"));        //returns ".js"
+console.log(getExtention("README.md"));     //returns ".md"
